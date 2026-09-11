@@ -1,0 +1,34 @@
+[project]
+name = "avito-mcp-ru"
+version = "0.5.3"
+description = "API Авито для ИИ-ассистентов: объявления и статистика, чаты с покупателями, заказы и Авито Доставка, автозагрузка, продвижение, отзывы"
+keywords = ["mcp", "model-context-protocol", "avito", "avito-api", "авито", "seller-api", "marketplace", "ecommerce", "russia", "claude"]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Ilya Utov" }]
+dependencies = [
+    # Весь код приходит отсюда. Версия фиксируется снизу и держится в пределах
+    # мажорной: обёртка обязана ставить то ядро, про которое написан README.
+    "marketplaces-mcp-ru>=0.5.3,<1",
+]
+
+[project.urls]
+Homepage = "https://marketplaces-mcp-ru.aifrontier.tech/avito-api.html"
+Documentation = "https://marketplaces-mcp-ru.aifrontier.tech/avito-api.html"
+Repository = "https://github.com/ilyautov/avito-mcp-ru"
+Issues = "https://github.com/ilyautov/avito-mcp-ru/issues"
+Changelog = "https://github.com/ilyautov/avito-mcp-ru/blob/main/CHANGELOG.md"
+
+[project.scripts]
+avito-mcp-ru = "avito_mcp_ru:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["avito_mcp_ru"]
