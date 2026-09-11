@@ -20,7 +20,7 @@ Cline: `cline_mcp_settings.json`.
   "mcpServers": {
     "avito": {
       "command": "uvx",
-      "args": ["avito-mcp-ru"],
+      "args": ["--from", "git+https://github.com/ilyautov/avito-mcp-ru", "avito-mcp-ru"],
       "env": {
         "AVITO_CLIENT_ID": "<значение>",
         "AVITO_CLIENT_SECRET": "<значение>"
