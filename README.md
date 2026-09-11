@@ -42,11 +42,17 @@ Claude Desktop, `claude_desktop_config.json`:
   "mcpServers": {
     "avito": {
       "command": "uvx",
-      "args": ["avito-mcp-ru"],
+      "args": ["--from", "git+https://github.com/ilyautov/avito-mcp-ru", "avito-mcp-ru"],
       "env": { "AVITO_CLIENT_ID": "...", "AVITO_CLIENT_SECRET": "..." }
     }
   }
 }
+```
+
+Третий путь, если агент умеет скиллы: он поставит сервер и настроит клиент сам.
+
+```bash
+npx skills add ilyautov/avito-mcp-ru
 ```
 
 ## Ключи
