@@ -1,6 +1,6 @@
 [project]
 name = "avito-mcp-ru"
-version = "0.5.3"
+version = "0.5.4"
 description = "API Авито для ИИ-ассистентов: объявления и статистика, чаты с покупателями, заказы и Авито Доставка, автозагрузка, продвижение, отзывы"
 keywords = ["mcp", "model-context-protocol", "avito", "avito-api", "авито", "seller-api", "marketplace", "ecommerce", "russia", "claude"]
 readme = "README.md"
