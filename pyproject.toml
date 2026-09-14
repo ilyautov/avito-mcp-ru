@@ -1,6 +1,6 @@
 [project]
 name = "avito-mcp-ru"
-version = "0.5.4"
+version = "0.6.0"
 description = "API Авито для ИИ-ассистентов: объявления и статистика, чаты с покупателями, заказы и Авито Доставка, автозагрузка, продвижение, отзывы"
 keywords = ["mcp", "model-context-protocol", "avito", "avito-api", "авито", "seller-api", "marketplace", "ecommerce", "russia", "claude"]
 readme = "README.md"
@@ -10,7 +10,7 @@ authors = [{ name = "Ilya Utov" }]
 dependencies = [
     # Весь код приходит отсюда. Версия фиксируется снизу и держится в пределах
     # мажорной: обёртка обязана ставить то ядро, про которое написан README.
-    "marketplaces-mcp-ru>=0.5.3,<1",
+    "marketplaces-mcp-ru>=0.6.0,<1",
 ]
 
 [project.urls]

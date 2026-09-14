@@ -3,7 +3,7 @@
   "name": "io.github.ilyautov/avito-mcp-ru",
   "title": "Авито MCP (RU)",
   "description": "API Авито в ИИ-ассистенте: объявления, чаты, заказы, автозагрузка, отзывы",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "websiteUrl": "https://marketplaces-mcp-ru.aifrontier.tech/avito-api.html",
   "repository": {
     "url": "https://github.com/ilyautov/avito-mcp-ru",
@@ -14,7 +14,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "avito-mcp-ru",
-      "version": "0.5.4",
+      "version": "0.6.0",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
